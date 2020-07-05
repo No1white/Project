@@ -4,5 +4,5 @@
 ![1.jpg](https://github.com/No1white/jgShop/blob/master/README_files/1.jpg)
 ![5.jpg](https://i.loli.net/2020/07/05/WucQyHD52COTnVA.jpg))
 ![3.jpg](https://i.loli.net/2020/07/05/NMp61ZaOVnzH5WP.jpg)
-![4.jpg](https://github.com/No1white/jgShop/blob/master/README_files/4.jpg)
+![4.jpg](https://raw.githubusercontent.com/No1white/jgShop/master/static/avatar1.jpg)
 ![](https://github.com/No1white/jgShop/blob/master/README_files/5.jpg)
