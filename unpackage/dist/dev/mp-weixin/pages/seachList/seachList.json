@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "商品列表",
+  "navigationBarBackgroundColor": "#ff0136",
+  "usingComponents": {
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-item": "/components/uni-list-item/uni-list-item",
+    "top-bar": "/components/topBar/topBar",
+    "good-list": "/components/goodList/goodList"
+  }
+}

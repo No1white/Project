@@ -1,0 +1,34 @@
+.orderContainer {
+  width: 100%;
+  height: 100%;
+  background: #f4f4f4;
+}
+.orderContainer .orderList {
+  width: 100%;
+  height: 100%;
+}
+.orderContainer .orderList .orderItem .orderInfo {
+  width: 100%;
+  height: auto;
+  background: white;
+  border-radius: 40rpx;
+}
+.orderContainer .orderList .orderItem .orderInfo .shopInfoLine {
+  padding-left: 20rpx;
+  padding-top: 20rpx;
+}
+.orderContainer .orderList .orderItem .orderInfo .shopInfoLine .shopLogo {
+  width: 60rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.orderContainer .orderList .orderItem .orderInfo .shopInfoLine .shopTitle {
+  margin-left: 30rpx;
+}
+.orderContainer .orderList .orderItem .orderInfo .totalPrice {
+  font-size: 36rpx;
+  text-align: right;
+  padding-bottom: 20rpx;
+  padding-right: 20rpx;
+}
+

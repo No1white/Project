@@ -1,0 +1,38 @@
+.searchListContainer {
+  width: 100%;
+  height: 100%;
+}
+.searchListContainer .searchWrap {
+  width: 95%;
+  margin: 10rpx auto;
+  background: #f2f2f2;
+}
+.searchListContainer .searchWrap ._span {
+  font-size: 60rpx;
+  position: absolute;
+  top: 18rpx;
+}
+.searchListContainer .searchWrap input {
+  height: 80rpx;
+  margin-left: 50rpx;
+}
+.searchListContainer .topBarWrap {
+  margin-top: 20rpx;
+  padding-bottom: 6rpx;
+  border-bottom: 1rpx solid #F1F1F1;
+}
+.searchListContainer .topBarWrap .topBarList {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+}
+.searchListContainer .topBarWrap .topBarList .topBarItem {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.searchListContainer .topBarWrap .topBarList .checked {
+  color: #ff0136;
+}
+

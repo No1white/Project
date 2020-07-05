@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "店铺",
+  "navigationBarBackgroundColor": "#ff0136",
+  "usingComponents": {
+    "goods": "/components/goods/goods"
+  }
+}

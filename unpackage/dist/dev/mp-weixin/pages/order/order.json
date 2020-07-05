@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "订单列表",
+  "navigationBarBackgroundColor": "#ff0136",
+  "usingComponents": {
+    "wuc-tab": "/components/wuc-tab/wuc-tab",
+    "good-detail": "/components/goodDetail/goodDetail"
+  }
+}

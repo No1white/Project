@@ -1,0 +1,353 @@
+.detailContainer {
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+}
+.detailContainer .swiperContainer {
+  width: 100%;
+  height: 700rpx;
+  background: white;
+}
+.detailContainer .swiperContainer .swiper {
+  height: inherit;
+}
+.detailContainer .swiperContainer .swiper swiper-item {
+  height: inherit;
+}
+.detailContainer .swiperContainer .swiper swiper-item image {
+  width: 100%;
+}
+.detailContainer .goodInfo {
+  width: 100%;
+  height: 240rpx;
+  background: white;
+  box-sizing: border-box;
+  padding: 16rpx;
+}
+.detailContainer .goodInfo .goodPrice {
+  color: #cf3d15;
+  font-size: 60rpx;
+}
+.detailContainer .goodInfo .goodTitle {
+  font-weight: bold;
+  font-size: 36rpx;
+}
+.detailContainer .goodInfo .infoLine {
+  margin-top: 16rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  color: #666666;
+  font-size: 28rpx;
+}
+.detailContainer .goodInfo .infoLine .delivery {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.detailContainer .goodInfo .infoLine .sales {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.detailContainer .goodInfo .infoLine .address {
+  text-align: right;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.detailContainer .shopWrap {
+  width: 100%;
+  height: 240rpx;
+  background: white;
+  margin-top: 30rpx;
+}
+.detailContainer .shopWrap .shopInfo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 20rpx;
+  font-size: 35rpx;
+  line-height: 30rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.detailContainer .shopWrap .shopInfo image {
+  margin-right: 20rpx;
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+}
+.detailContainer .shopWrap .shopInfo .shopTitle {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+          flex: 3;
+  font-size: 40rpx;
+}
+.detailContainer .shopWrap .shopInfo .allGood {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+  border: 4rpx solid #ff8b01;
+  color: #ff8b01;
+  height: 30rpx;
+  margin-right: 10rpx;
+  border-radius: 50rpx;
+  padding: 20rpx;
+}
+.detailContainer .shopWrap .shopInfo .enterShop {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+  color: white;
+  height: 30rpx;
+  background: -webkit-linear-gradient(330deg, #ff8b01, #ff5501);
+  background: linear-gradient(120deg, #ff8b01, #ff5501);
+  border-radius: 50rpx;
+  padding: 20rpx;
+}
+.detailContainer .shopWrap .shopRating {
+  font-size: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.detailContainer .shopWrap .shopRating .rating {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.detailContainer .shopWrap .shopRating .rating text {
+  color: #ff5501;
+}
+.detailContainer .uniWrap {
+  box-sizing: border-box;
+  background-color: white;
+  margin-top: 70rpx;
+  height: 160rpx;
+  width: 100%;
+  padding: 20rpx;
+}
+.detailContainer .uniWrap .comments {
+  margin-top: 40rpx;
+}
+.detailContainer .uniWrap .comments .showAll {
+  float: right;
+  color: #cb2d01;
+}
+.detailContainer .imageInfo {
+  text-align: center;
+  margin-top: 28rpx;
+  background-color: white;
+}
+.detailContainer .imageInfo .titleLine {
+  width: 50%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 30rpx;
+  z-index: 1;
+}
+.detailContainer .imageInfo .goodDetail {
+  width: 200rpx;
+  display: block;
+  background: white;
+  z-index: 3;
+  font-size: 42rpx;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-bottom: 10rpx;
+}
+.detailContainer .imageInfo image {
+  width: 100%;
+}
+.detailContainer .bottomBtn {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 3;
+  height: 100rpx;
+  background-color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.detailContainer .bottomBtn .indexIcon {
+  font-size: 20rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.detailContainer .bottomBtn .indexIcon ._span {
+  font-size: 50rpx;
+  display: block;
+}
+.detailContainer .bottomBtn .btnWrap {
+  -webkit-box-flex: 4;
+  -webkit-flex: 4;
+          flex: 4;
+}
+.detailContainer .bottomBtn .btnWrap .cartBtn {
+  width: 50%;
+  height: 70rpx;
+  color: white;
+  line-height: 67rpx;
+  display: inline-block;
+  border-top-left-radius: 30rpx;
+  border-bottom-left-radius: 30rpx;
+  background: -webkit-linear-gradient(330deg, #ac8b58, #d4b075);
+  background: linear-gradient(120deg, #ac8b58, #d4b075);
+}
+.detailContainer .bottomBtn .btnWrap .buyBtn {
+  width: 50%;
+  height: 70rpx;
+  color: white;
+  line-height: 67rpx;
+  display: inline-block;
+  border-top-right-radius: 30rpx;
+  border-bottom-right-radius: 30rpx;
+  background: -webkit-linear-gradient(330deg, #fd0134, #e20320);
+  background: linear-gradient(120deg, #fd0134, #e20320);
+}
+.detailContainer .chooseWrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+.detailContainer .chooseWrap .chooseCategory {
+  position: fixed;
+  bottom: 0;
+  z-index: 4;
+  width: 100%;
+  height: 85%;
+  border-radius: 20rpx;
+  background: white;
+}
+.detailContainer .chooseWrap .chooseCategory .goodWrap {
+  width: 100%;
+  height: 300rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-left: 30rpx;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  border-bottom: 1px solid #d3d3d3;
+}
+.detailContainer .chooseWrap .chooseCategory .goodWrap image {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+  width: 120rpx;
+  height: 200rpx;
+}
+.detailContainer .chooseWrap .chooseCategory .goodWrap .goodLine {
+  -webkit-box-flex: 5;
+  -webkit-flex: 5;
+          flex: 5;
+  width: 100%;
+  height: 70%;
+  border-radius: 30rpx;
+  padding-left: 20rpx;
+}
+.detailContainer .chooseWrap .chooseCategory .goodWrap .goodLine .price {
+  color: #cb2d01;
+}
+.detailContainer .chooseWrap .chooseCategory .goodWrap .goodLine .storeCount {
+  margin: 20rpx 0;
+}
+.detailContainer .chooseWrap .chooseCategory .unit {
+  width: 90%;
+  height: 100%%;
+  margin: 20rpx auto;
+}
+.detailContainer .chooseWrap .chooseCategory .unit .typeList text {
+  display: block;
+}
+.detailContainer .chooseWrap .chooseCategory .unit .typeList button {
+  border-radius: 30rpx;
+  border: none;
+  margin-left: 40rpx;
+  margin-top: 30rpx;
+  background-color: #f8f8f8;
+}
+.detailContainer .chooseWrap .chooseCategory .unit .typeList .check {
+  background: #f70230;
+  color: white;
+}
+.detailContainer .chooseWrap .chooseCategory .unit .buyCount {
+  margin-top: 80rpx;
+  border-top: 1px solid #d3d3d3;
+  font-size: 36rpx;
+}
+.detailContainer .chooseWrap .chooseCategory .unit .buyCount .btnGroup {
+  position: relative;
+  left: 400rpx;
+}
+.detailContainer .chooseWrap .chooseCategory .unit .buyCount .btnGroup button {
+  width: 80rpx;
+  height: 80rpx;
+  font-size: 50rpx;
+  background: #f8f8f8;
+  border: none !important;
+  box-shadow: none;
+  display: inline-block;
+}
+.detailContainer .chooseWrap .chooseCategory .unit .buyCount .btnGroup button::after {
+  border: none;
+}
+.detailContainer .chooseWrap .chooseCategory .unit .buyCount .btnGroup text {
+  text-align: center;
+  font-size: 36rpx;
+}
+.detailContainer .chooseWrap .chooseCategory .unit .joinCart {
+  width: 90%;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 60rpx;
+  color: white;
+  background: -webkit-linear-gradient(330deg, #ffc201, #ff9702);
+  background: linear-gradient(120deg, #ffc201, #ff9702);
+}
+.detailContainer .chooseWrap .chooseCategory .cateGory {
+  width: 100%;
+  height: 100%%;
+  margin: 20rpx auto;
+}
+.detailContainer .chooseWrap .chooseCategory .cateGory .typeList text {
+  display: block;
+}
+.detailContainer .chooseWrap .chooseCategory .cateGory .typeList button {
+  border-radius: 30rpx;
+  border: none;
+  margin-left: 40rpx;
+  margin-top: 30rpx;
+  background-color: #f8f8f8;
+}
+.detailContainer .chooseWrap .chooseCategory .cateGory .typeList .check {
+  background: #f70230;
+  color: white;
+}
+

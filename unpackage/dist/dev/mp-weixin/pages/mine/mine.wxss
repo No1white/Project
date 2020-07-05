@@ -1,0 +1,77 @@
+.personContainer {
+  width: 100%;
+  height: 100%;
+  background-color: #e9edf5;
+}
+.personContainer .avatar {
+  width: 100%;
+  height: 400rpx;
+  background-color: #4088f3;
+}
+.personContainer .avatar image {
+  margin-top: 150rpx;
+  margin-left: 40rpx;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.personContainer .avatar text {
+  position: relative;
+  top: -40rpx;
+  margin-left: 50rpx;
+  color: white;
+  line-height: 40rpx;
+  font-size: 70rpx;
+}
+.personContainer .iconBar {
+  width: 90%;
+  height: 200rpx;
+  background: white;
+  border-radius: 30rpx;
+  margin: -60rpx auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.personContainer .iconBar .iconItem {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin: 0px 20rpx;
+  text-align: center;
+}
+.personContainer .iconBar .iconItem ._span {
+  font-size: 80rpx;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+}
+.personContainer .iconBar .iconItem text {
+  display: block;
+  font-size: 30rpx;
+}
+.personContainer .listBar {
+  margin-top: 90rpx;
+}
+.personContainer .listBar .listItem {
+  height: 90rpx;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.personContainer .listBar .listItem ._span {
+  margin-left: 40rpx;
+}
+.personContainer .logOut {
+  margin-top: 40rpx;
+}
+

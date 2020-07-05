@@ -1,0 +1,1 @@
+<view class="goodsContainer"><view class="goodList"><block wx:for="{{goodsInfo}}" wx:for-item="good" wx:for-index="__i0__"><view class="goodItem"><image src="{{good.picUrl}}" mode="widthFix"></image><text class="goodTitle">{{good.goodTitle}}</text><text class="price">{{"￥"+good.currentPrice}}</text></view></block></view></view>

@@ -1,0 +1,1 @@
+<view class="topBar"><view class="logo"><text>简购</text></view><view data-event-opts="{{[['tap',[['goToSeach',['$event']]]]]}}" class="search" bindtap="__e"><label class="iconfont icon-search _span"></label><text>搜索商品</text></view><view class="btnGroup"><view class="menuBtn"></view><view class="closeBtn"></view></view></view>

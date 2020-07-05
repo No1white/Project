@@ -1,0 +1,33 @@
+<template>
+	<view class="topBarContainer">
+		<view class="topBarWrap">
+			<view class="topBarList">
+				<view class="topBarItem">
+					综合排序
+				</view>
+				<view class="topBarItem">
+					销售优先
+				</view>
+				<view class="topBarItem">
+					价格排序
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data(){
+			return {
+				topBarList:['综合排序','销量排序','价格排序']
+			}
+		},
+		methods:{
+			
+		}
+	}
+</script>
+
+<style>
+</style>

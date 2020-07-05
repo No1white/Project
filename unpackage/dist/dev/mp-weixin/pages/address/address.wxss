@@ -1,0 +1,60 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background: #f4f4f4;
+  padding-bottom: 50rpx;
+}
+.container .noneAddress {
+  text-align: center;
+}
+.container .addressItem {
+  width: 100%;
+  height: 260rpx;
+  margin-bottom: 30rpx;
+  background: white;
+}
+.container .addressItem .userInfo {
+  margin-left: 20rpx;
+  overflow: hidden;
+}
+.container .addressItem .userInfo .userName {
+  float: left;
+}
+.container .addressItem .userInfo .phoneNum {
+  float: right;
+  margin-right: 20rpx;
+}
+.container .addressItem .addressInfo {
+  margin-top: 20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  border-bottom: 1rpx solid #666666;
+}
+.container .addressItem .btnGroup {
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  overflow: hidden;
+}
+.container .addressItem .btnGroup .defaultAddress {
+  float: left;
+}
+.container .addressItem .btnGroup .btn {
+  float: right;
+  margin-right: 20rpx;
+}
+.container .addressItem .btnGroup .btn view {
+  display: inline-block;
+}
+.container .addressItem .btnGroup .btn .editAddress {
+  margin-right: 10rpx;
+}
+.container .addAddress {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  background: -webkit-linear-gradient(330deg, #ff8d01, #ff5501);
+  background: linear-gradient(120deg, #ff8d01, #ff5501);
+  color: white;
+  text-align: center;
+}
+

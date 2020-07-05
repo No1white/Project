@@ -1,0 +1,45 @@
+.registerWrap .logo {
+  width: 100%;
+  height: 400rpx;
+  margin-top: 50rpx;
+  text-align: center;
+}
+.registerWrap .logo text {
+  font-size: 200rpx;
+  color: #669900;
+}
+.registerWrap .formWrap {
+  width: 80%;
+  margin: 0px auto;
+}
+.registerWrap .formWrap .inputGroup .inputItem {
+  margin-top: 60rpx;
+  border-bottom: 1px solid #666666;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.registerWrap .formWrap .inputGroup .inputItem ._span {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 60rpx;
+}
+.registerWrap .formWrap .inputGroup .inputItem input {
+  -webkit-box-flex: 5;
+  -webkit-flex: 5;
+          flex: 5;
+  font-size: 35rpx;
+  display: inline-flexbox;
+  height: 80rpx;
+  text-indent: 10rpx;
+}
+.registerWrap .submit {
+  width: 80%;
+  margin: 30rpx auto;
+  height: 100rpx;
+  color: white;
+  background-color: #669900;
+  border-radius: 60rpx;
+}
+

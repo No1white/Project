@@ -1,0 +1,203 @@
+.container {
+  width: 100%;
+  height: auto;
+  background: #f1f1f1;
+  margin-bottom: 120rpx;
+}
+.container .noneAddress {
+  width: 100%;
+  height: 200rpx;
+  background: white;
+  font-size: 50rpx;
+  text-align: center;
+}
+.container .noneAddress button {
+  color: white;
+  background: #fe5d00;
+}
+.container .addressInfo {
+  width: 95%;
+  height: 200rpx;
+  border-radius: 16rpx;
+  background: white;
+  margin: 30rpx auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.container .addressInfo .addressIcon {
+  text-align: center;
+  margin-left: 10rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.container .addressInfo .addressIcon ._span {
+  padding: 20rpx;
+  background: -webkit-linear-gradient(330deg, #fd851d, #ff5108);
+  background: linear-gradient(120deg, #fd851d, #ff5108);
+  border-radius: 50%;
+  color: white;
+}
+.container .addressInfo .userInfo {
+  -webkit-box-flex: 6;
+  -webkit-flex: 6;
+          flex: 6;
+  margin-left: 20rpx;
+  margin-bottom: 40rpx;
+}
+.container .addressInfo .userInfo .userPhone {
+  color: #808080;
+  margin-left: 30rpx;
+}
+.container .addressInfo .userInfo .detailAddress {
+  margin-top: 20rpx;
+  display: block;
+}
+.container .addressInfo .nextIcon {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 50rpx;
+  color: #999999;
+  text-align: center;
+}
+.container .goodWrap {
+  width: 95%;
+  height: auto;
+  background: white;
+  margin: 30rpx auto;
+  border-radius: 30rpx;
+}
+.container .goodWrap .shopIcon {
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
+.container .goodWrap .shopLine {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  margin-left: 20rpx;
+  padding-top: 20rpx;
+}
+.container .goodWrap .goodInfo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 20rpx;
+  font-size: 30rpx;
+}
+.container .goodWrap .goodInfo .goodImg {
+  width: 190rpx;
+  height: 190rpx;
+}
+.container .goodWrap .goodInfo .goodInfo {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+          flex: 3;
+  display: block;
+}
+.container .goodWrap .goodInfo .goodInfo .goodTitle {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.container .goodWrap .goodInfo .goodInfo .goodCategory {
+  margin: 10rpx 0rpx;
+  display: block;
+}
+.container .goodWrap .goodInfo .goodPriceWrap {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin-top: 20rpx;
+  text-align: right;
+  color: #808080;
+}
+.container .goodWrap .goodInfo .goodPriceWrap .goodPrice {
+  display: block;
+}
+.container .delivery {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin: 20rpx auto;
+}
+.container .delivery .deliveryWay {
+  text-align: center;
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+}
+.container .delivery .way {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+}
+.container .delivery .deliveryPrice {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+}
+.container .delivery .deliveryPrice ._span {
+  margin-left: 10rpx;
+}
+.container .orderNote {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding-bottom: 20rpx;
+}
+.container .orderNote .note {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+  text-align: center;
+}
+.container .orderNote input {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+          flex: 3;
+}
+.container .bottomPay {
+  width: 100%;
+  height: 100rpx;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.container .bottomPay .totalInfo {
+  -webkit-box-flex: 7;
+  -webkit-flex: 7;
+          flex: 7;
+  margin-top: 20rpx;
+  text-align: right;
+}
+.container .bottomPay .totalInfo .totalPrice {
+  color: #fe5600;
+}
+.container .bottomPay .submit {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+  margin-left: 10rpx;
+  font-size: 36rpx;
+  color: white;
+  background: -webkit-linear-gradient(330deg, #fe7b00, #fe5600);
+  background: linear-gradient(120deg, #fe7b00, #fe5600);
+  border-radius: 50rpx;
+}
+

@@ -1,0 +1,153 @@
+.shopContainer {
+  width: 100%;
+  height: 100%;
+  background: #f0f0f0;
+}
+.shopContainer .shop {
+  margin-top: 20rpx;
+  width: 100%;
+  background: white;
+}
+.shopContainer .shop .shopItem {
+  margin-left: 30rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.shopContainer .shop .shopItem .checkAll {
+  margin: 0px 26rpx;
+}
+.shopContainer .shop .shopItem .shopInfo {
+  -webkit-box-flex: 5;
+  -webkit-flex: 5;
+          flex: 5;
+}
+.shopContainer .shop .shopItem .shopInfo image {
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}
+.shopContainer .shop .shopItem .shopInfo .shopTitle {
+  margin-left: 12rpx;
+  font-size: 24rpx;
+}
+.shopContainer .shop .shopItem .goods {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.shopContainer .shop .shopItem .goods .goodItem {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.shopContainer .shop .shopItem .goods .goodItem .checkBtn {
+  margin: 0 20rpx;
+}
+.shopContainer .shop .shopItem .goods .goodItem .goodInfo {
+  -webkit-box-flex: 5;
+  -webkit-flex: 5;
+          flex: 5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.shopContainer .shop .shopItem .goods .goodItem .goodInfo image {
+  width: 180rpx;
+  height: 180rpx;
+  margin: 10rpx 20rpx;
+}
+.shopContainer .shop .shopItem .goods .goodItem .goodInfo .goodDetail {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.shopContainer .shop .shopItem .goods .goodItem .goodInfo .goodDetail .goodTitle {
+  margin-top: 24rpx;
+  width: 32%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.shopContainer .shop .shopItem .goods .goodItem .goodInfo .goodDetail .total {
+  width: 460rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 24rpx;
+}
+.shopContainer .shop .shopItem .goods .goodItem .goodInfo .goodDetail .total .price {
+  color: #ff5501;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.shopContainer .shop .shopItem .goods .goodItem .goodInfo .goodDetail .total .goodWeight {
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+.shopContainer .shop .shopItem .goods .goodItem .goodInfo .goodDetail .total .operation {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.shopContainer .shop .shopItem .goods .goodItem .goodInfo .goodDetail .total .operation view {
+  font-size: 42rpx;
+  display: inline-block;
+}
+.shopContainer .shop .shopItem .goods .goodItem .goodInfo .goodDetail .total .operation text {
+  margin: 0 10px;
+}
+.shopContainer .footer {
+  width: 100%;
+  height: 120rpx;
+  position: fixed;
+  bottom: 0px;
+  border-top: 1rpx solid #6666;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.shopContainer .footer .settleAcount {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin-left: 10px;
+  background: #ff5501;
+  color: white;
+}
+.shopContainer .footer .allCheckWrap {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.shopContainer .footer .totalPrice {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+  text-align: right;
+}
+.shopContainer .footer .totalPrice .price {
+  color: #ff5501;
+}
+

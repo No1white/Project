@@ -1,0 +1,52 @@
+.registerWrap .logo.data-v-891c2434 {
+  width: 100%;
+  height: 400rpx;
+  margin-top: 50rpx;
+  text-align: center;
+}
+.registerWrap .logo text.data-v-891c2434 {
+  font-size: 200rpx;
+  color: #669900;
+}
+.registerWrap .formWrap.data-v-891c2434 {
+  width: 80% !important;
+  margin: 0px auto;
+}
+.registerWrap .formWrap .inputGroup .inputItem.data-v-891c2434 {
+  margin-top: 60rpx;
+  border-bottom: 1px solid #666666;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.registerWrap .formWrap .inputGroup .inputItem ._span.data-v-891c2434 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 60rpx;
+}
+.registerWrap .formWrap .inputGroup .inputItem .vefCode.data-v-891c2434 {
+  background-color: #669900;
+}
+.registerWrap .formWrap .inputGroup .inputItem input.data-v-891c2434 {
+  -webkit-box-flex: 5;
+  -webkit-flex: 5;
+          flex: 5;
+  font-size: 35rpx;
+  display: inline-flexbox;
+  height: 80rpx;
+  text-indent: 10rpx;
+}
+.registerWrap .formWrap .inputGroup .inputItem .codeInput.data-v-891c2434 {
+  margin-left: 20rpx;
+}
+.registerWrap .formWrap .register.data-v-891c2434 {
+  margin-top: 30rpx;
+  height: 100rpx;
+  font-size: 50rpx;
+  line-height: 100rpx;
+  color: white;
+  background-color: #669900;
+  border-radius: 60rpx;
+}
+

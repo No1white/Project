@@ -1,0 +1,70 @@
+.commentContainer {
+  width: 100%;
+  height: 100%;
+  background: #f5f5f5;
+}
+.commentContainer .topBar {
+  width: 100%;
+  height: 120rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  background: white;
+}
+.commentContainer .topBar view {
+  height: 80rpx;
+  line-height: 80rpx;
+  border: 2rpx solid #ff5501;
+  color: black;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  padding: 0rpx 60rpx;
+  font-size: 30rpx;
+  border-radius: 50rpx;
+}
+.commentContainer .topBar .active {
+  color: white;
+  background: #ff5501;
+}
+.commentContainer .commentList {
+  width: 100%;
+  height: auto;
+  margin-top: 10rpx;
+  background: white;
+}
+.commentContainer .commentList .commentItem {
+  padding: 20rpx;
+}
+.commentContainer .commentList .commentItem .userInfo {
+  height: 80rpx;
+}
+.commentContainer .commentList .commentItem .userInfo .avatar {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.commentContainer .commentList .commentItem .userInfo .userTitle {
+  margin-left: 20rpx;
+}
+.commentContainer .commentList .commentItem .timeAndGoodInfo {
+  margin: 20rpx 0px;
+  color: #808080;
+  font-size: 30rpx;
+}
+.commentContainer .commentList .commentItem .comment .imageWrap {
+  margin: 20rpx 0rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.commentContainer .commentList .commentItem .comment .imageWrap image {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin-left: 20rpx;
+}
+.commentContainer .commentList .commentItem .watchTimes {
+  color: #999999;
+}
+

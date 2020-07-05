@@ -1,0 +1,87 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background: #f1f1f1;
+}
+.container .addressWrap {
+  width: 100%;
+  height: 500rpx;
+  background: white;
+}
+.container .addressWrap .userInfo {
+  padding: 20rpx 40rpx;
+}
+.container .addressWrap .userInfo .userName {
+  margin-top: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.container .addressWrap .userInfo .userName test {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.container .addressWrap .userInfo .userName input {
+  margin-left: 20rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.container .addressWrap .userInfo .userPhone {
+  margin-top: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.container .addressWrap .userInfo .userPhone test {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.container .addressWrap .userInfo .userPhone input {
+  margin-left: 20rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.container .addressWrap .address {
+  margin-left: 40rpx;
+}
+.container .addressWrap .address .region {
+  margin-top: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.container .addressWrap .address .region test {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.container .addressWrap .address .region input {
+  margin-left: 20rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.container .addressWrap .address .detailAddress {
+  margin-top: 20rpx;
+}
+.container .addressWrap .uni-list .uni-list-cell {
+  overflow: hidden;
+  margin-top: 90rpx;
+  margin-left: 40rpx;
+}
+.container .addressWrap .uni-list .uni-list-cell view {
+  float: left;
+}
+.container .addressWrap .uni-list .uni-list-cell switch {
+  float: right;
+}
+.container .saveAddress {
+  margin-top: 200rpx;
+  background: #007aff;
+  color: white;
+}
+
